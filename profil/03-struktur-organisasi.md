@@ -66,90 +66,56 @@ Dikarenakan **MOCHAMAD TRIONO BUDI SANTOSO** meninggal dunia (berdasarkan Kutipa
 
 ## C. Diagram Struktur Organisasi
 
-### Bagan Organisasi
+### Bagan Organisasi Simpel
 
-```mermaid
-graph TD
-    A["RAPAT PEMBINA<br/>(Musyawarah Tertinggi)"]
+```
+                     RAPAT PEMBINA
+                 (Musyawarah Tertinggi)
+                          ↓
+         ┌───────────────┼────────────────┐
+         ↓                ↓                  ↓
+    PEMBINA          PENGAWAS        PENGURUS EKSEKUTIF
+    (5 orang)        (3 orang)       (3 orang)
+Ketua:              Ketua:          Ketua:
+IR. YUSARWEDI      SUPRAYITNO      DRS. JOKO SUTARNO
 
-    A --> B["PEMBINA<br/>(5 Anggota)<br/>Ketua: IR. YUSARWEDI"]
-    A --> C["PENGAWAS<br/>(3 Anggota)<br/>Ketua: SUPRAYITNO"]
-    A --> D["PENGURUS/MANAJEMEN<br/>(3 Anggota)"]
-
-    B --> B1["1. IR. YUSARWEDI<br/>(Ketua)"]
-    B --> B2["2. MULYANTO NUGROHO"]
-    B --> B3["3. M. YUSUF ABDULLAH"]
-    B --> B4["4. IR. MAKMUR YUSRI"]
-    B --> B5["5. SIGIT TJAHJO HANDOKO, S.KOM"]
-
-    C --> C1["1. SUPRAYITNO<br/>(Ketua)"]
-    C --> C2["2. MOHAMMAD CHISQYIEL, A.ma., ST"]
-    C --> C3["3. ARIE DIPAREZA SYAFEI, S.T"]
-
-    D --> D1["Ketua Pengurus<br/>DRS. JOKO SUTARNO"]
-    D --> D2["Sekretaris<br/>AKHMAD GUNTAR SUSATYO ADY"]
-    D --> D3["Bendahara<br/>M. ABROR THO'AT"]
-
-    D1 --> E["OPERASIONAL KEGIATAN"]
-    D1 --> F["PENGELOLAAN LEMBAGA PENDIDIKAN"]
-    D1 --> G["LAYANAN SOSIAL"]
-
-    E --> E1["Kegiatan Harian"]
-    E --> E2["Koordinasi Lapangan"]
-
-    F --> F1["Sekolah/Madrasah"]
-    F --> F2["Pesantren"]
-    F --> F3["PAUD & TPQ"]
-
-    G --> G1["Panti Asuhan"]
-    G --> G2["Program Sosial"]
-    G --> G3["Zakat & Infaq"]
-
-    style A fill:#2E86AB
-    style B fill:#A23B72
-    style C fill:#F18F01
-    style D fill:#C73E1D
-    style B1 fill:#A23B72
-    style C1 fill:#F18F01
-    style D1 fill:#C73E1D
-    style D2 fill:#C73E1D
-    style D3 fill:#C73E1D
+    Anggota:            Anggota:        Anggota:
+    1. MULYANTO         1. MOHAMMAD     1. AKHMAD GUNTAR
+    2. M. YUSUF         2. ARIE         2. M. ABROR
+    3. IR. MAKMUR
+    4. SIGIT TJAHJO
 ```
 
 ### Hubungan Antar Lembaga
 
-```mermaid
-graph LR
-    A["YAYASAN<br/>MASJID AGUNG<br/>AT-TAQWA REWWIN"]
+**YAYASAN MASJID AGUNG AT-TAQWA REWWIN**
 
-    A --> B["PEMBINA<br/>(5 orang)"]
-    A --> C["PENGAWAS<br/>(3 orang)"]
-    A --> D["PENGURUS EKSEKUTIF<br/>(3 orang)"]
-
-    D --> E["LEMBAGA PENDIDIKAN"]
-    D --> F["LEMBAGA SOSIAL"]
-    D --> G["LEMBAGA KEAGAMAAN"]
-
-    E --> E1["Jenjang Dasar<br/>TK/RA, SD/MI"]
-    E --> E2["Jenjang Menengah<br/>SMP/MTs, SMA/MA, SMK"]
-    E --> E3["Pendidikan Tinggi<br/>PT/Universitas"]
-    E --> E4["Pendidikan Non Formal<br/>PAUD, Play Group, TPQ"]
-
-    F --> F1["Panti Asuhan Yatim"]
-    F --> F2["Panti Jompo"]
-    F --> F3["Program Zakat & Infaq"]
-
-    G --> G1["Masjid"]
-    G --> G2["Pondok Pesantren"]
-    G --> G3["Majelis Ta'lim"]
-
-    style A fill:#2E86AB
-    style B fill:#A23B72
-    style C fill:#F18F01
-    style D fill:#C73E1D
-    style E fill:#6A994E
-    style F fill:#6A994E
-    style G fill:#6A994E
+```
+    ↓
+    ├─→ PEMBINA (5 orang)
+    │   └─ Ketua: IR. YUSARWEDI
+    │
+    ├─→ PENGAWAS (3 orang)
+    │   └─ Ketua: SUPRAYITNO
+    │
+    └─→ PENGURUS EKSEKUTIF (3 orang)
+        ├─ Ketua: DRS. JOKO SUTARNO
+        ├─ Sekretaris: AKHMAD GUNTAR SUSATYO ADY
+        └─ Bendahara: M. ABROR THO'AT
+            │
+            ├─→ LEMBAGA PENDIDIKAN
+            │   ├─ TK/RA (Jenjang Dasar)
+            │   ├─ PAUD & Play Group
+            │   ├─ TPQ (Qiroati)
+            │   └─ Taman Penitipan Anak (TPA)
+            │
+            ├─→ LEMBAGA SOSIAL
+            │   ├─ Panti Asuhan Yatim Piatu
+            │   └─ Program Zakat & Infaq
+            │
+            └─→ LEMBAGA KEAGAMAAN
+                ├─ Masjid Agung At-Taqwa
+                └─ Majelis Ta'lim
 ```
 
 ---
