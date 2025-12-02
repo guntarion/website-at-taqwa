@@ -1,0 +1,61 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor/IDE files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+~$*
+
+# MS Office temp files
+~$*.doc
+~$*.docx
+~$*.xls
+~$*.xlsx
+
+# Node.js (if using build tools)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build output
+dist/
+build/
+.cache/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+
+# Local development
+.local/
+*.local
+
+# Compressed files (usually not needed in repo)
+*.zip
+*.tar.gz
+*.rar
+
+# PDF source files (keep only in material folder if needed)
+# material/*.pdf
